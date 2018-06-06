@@ -9,11 +9,16 @@
 # run code 100 times
  	100.times do
  		# if statement ?this allows you to if this happens we can control it/change it.?
- 	if num == 33
+ 	if num == 3
  		#What we are replacing the number "3" with
  		puts "mind"
  	#This allows us to replace 3 but add it if the condition isnt met.
+ 	#This allows us to replace the 5 with our own text
+ 	elsif num == 5
+ 		puts "minds"
+ 		
  	else 
+
  		puts num
  	end
  	#This adds 1 to our original number every time the function is ran.
