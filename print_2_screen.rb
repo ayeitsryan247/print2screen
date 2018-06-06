@@ -9,17 +9,20 @@
 # run code 100 times
  	100.times do
  		# if statement ?this allows you to if this happens we can control it/change it.?
- 	if num %3 == 0
+ 	
+if num %5 == 0 && num %3 == 0
+ 		puts "mindminds"
+ 		
+ 	elsif num %3 == 0
 
  		#What we are replacing the number "3" with
  		puts "mind"
-
+elsif num %5 == 0  
+	puts "minds"
  	#This allows us to replace 3 but add it if the condition isnt met.
  	#This allows us to replace the 5 with our own text
- 	elsif num  %5 == 5
- 		puts "minds"
- 		
- 	else 
+ 	
+ 	else
 
  		puts num
  	end
