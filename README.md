@@ -1,10 +1,6 @@
-# print2screen
-PRINT 2 SCREEN
 
- 
-# Project Title
+# Print 2 Screen
 
-Print 2 Screen
 
 ## Getting Started
 
