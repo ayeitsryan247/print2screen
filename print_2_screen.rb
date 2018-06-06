@@ -16,7 +16,7 @@
 
  	#This allows us to replace 3 but add it if the condition isnt met.
  	#This allows us to replace the 5 with our own text
- 	elsif num == 5
+ 	elsif num  %5 == 5
  		puts "minds"
  		
  	else 
